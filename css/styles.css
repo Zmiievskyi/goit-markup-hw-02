@@ -1,0 +1,265 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+/* ----------------------------Главная страница ------------------------------------*/
+
+/* Header+footer */
+
+/* Logo */
+.logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+.logo-text,
+.footer-logo-text {
+  color: #2196f3;
+}
+/* Nav */
+.nav-link {
+  list-style-type: none;
+}
+.nav-item > a {
+  font-style: normal;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.nav-item:hover > a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.contact-link {
+  list-style-type: none;
+}
+.contact-item > [href] {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.contact-item:hover > [href] {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+
+/* hero */
+.advantages-hidden {
+  color: transparent;
+}
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.hero-btm {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+/* список преимуществ */
+
+.advantages-list {
+  list-style-type: none;
+}
+
+.advantages-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+.advantages-item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* чем мы занимаемся */
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.services-link {
+  list-style-type: none;
+}
+
+/* наша команда */
+
+.personal-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.personal-link {
+  list-style-type: none;
+}
+.personal-item-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.personal-item > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* footer */
+footer {
+  background: #2f303a;
+}
+.footer-logo {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-logo-text {
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
+}
+
+.footer-item > a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link {
+  list-style-type: none;
+  text-decoration: none;
+}
+.footer-item-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-item-contact {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*-------------------------------------------- Portfolio -----------------------------*/
+
+.filter {
+}
+.filter-link {
+  list-style-type: none;
+}
+.hero-btm {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background-color: #ffffff;
+  border: none;
+  box-shadow: none;
+}
+.hero-btm:hover {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: white;
+  background-color: #2196f3;
+  border: none;
+  box-shadow: none;
+}
+.examples {
+}
+.examples-link {
+  list-style-type: none;
+}
+.exampled-item h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.exampled-item p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.exampled-item a {
+  text-decoration: none;
+}
